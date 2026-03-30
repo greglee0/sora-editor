@@ -23,12 +23,7 @@
  ******************************************************************************/
 
 plugins {
-<<<<<<< HEAD
-    id("com.android.library")
-=======
     alias(libs.plugins.android.library)
-    alias(libs.plugins.publish)
->>>>>>> upstream/main
 }
 
 android {

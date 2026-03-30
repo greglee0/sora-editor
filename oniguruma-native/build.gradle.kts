@@ -23,12 +23,7 @@
  ******************************************************************************/
 
 plugins {
-<<<<<<< HEAD
-    id("com.android.library")
-=======
     alias(libs.plugins.android.library)
-    alias(libs.plugins.publish)
->>>>>>> upstream/main
 }
 
 android {
@@ -54,7 +49,7 @@ android {
     externalNativeBuild {
         cmake {
             path = project.file("src/main/cpp/CMakeLists.txt")
-            version = "4.1.2"
+            version = "3.22.1"
         }
     }
 }
